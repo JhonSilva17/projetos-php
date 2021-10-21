@@ -19,6 +19,7 @@
             
             if ($delete) {
                 $success = "Dados removidos com sucesso";
+                header('Location: index.php');
             }
         }
     }

@@ -23,6 +23,7 @@
                 
                 if ($update) {
                     $success = "Dados atualizados com sucesso";
+                    header('Location: index.php');
                 }
             }
         }
